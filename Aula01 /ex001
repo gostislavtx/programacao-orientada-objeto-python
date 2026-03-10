@@ -1,0 +1,14 @@
+# pedindo o nome do usuário
+nome = input("digite seu nome: ")
+
+# pedindo a idade
+idade = int(input("digite sua idade: "))
+
+# pedindo a altura em metros 
+altura = float(input("digite sua altura em metros: "))
+
+# mostrando os dados informados
+print("---- Informações Pessoais ----")
+print("Nome:", nome)
+print("Idade:", idaLde, "anos")
+print("Altura:", altura, "metros")

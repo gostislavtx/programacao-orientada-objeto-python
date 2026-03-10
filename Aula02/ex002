@@ -1,0 +1,26 @@
+# pede os números
+num1 = float(input("Digite o primeiro número: "))
+num2 = float(input("Digite o segundo número: "))
+
+# pede a operação
+operacao = input("Digite a operação (+, -, *, /): ")
+
+# verifica qual operação foi escolhida
+if operacao == "+":
+    resultado = num1 + num2
+    print("Resultado:", resultado)
+
+elif operacao == "-":
+    resultado = num1 - num2
+    print("Resultado:", resultado)
+
+elif operacao == "*":
+    resultado = num1 * num2
+    print("Resultado:", resultado)
+
+elif operacao == "/":
+    resultado = num1 / num2
+    print("Resultado:", resultado)
+
+else:
+    print("Operação inválida")
